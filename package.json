@@ -1,0 +1,12 @@
+{
+  "name": "online-consult",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["chat-app-example"],
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "npm run dev --workspace @online-consult/chat-app-example",
+    "build": "npm run build --workspace @online-consult/chat-app-example",
+    "typecheck": "npm run typecheck --workspace @online-consult/chat-app-example"
+  }
+}

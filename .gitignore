@@ -1,0 +1,34 @@
+# Local configuration (examples belong in Git)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# JavaScript dependencies and generated files
+node_modules/
+.next/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+*.tgz
+
+# Python dependencies, caches and local data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+*.sqlite3
+backend/staticfiles/
+
+# Temporary files and editor/OS metadata
+artifacts/
+tmp/
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
